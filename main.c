@@ -53,8 +53,8 @@ int main() {
 	int A = 8, B = 4;
 
 	R = A/B;
-	
-	printf("El valor en el campo %d del arreglo es: %d",R, nC[R]);	
+	printf("El valor de A es: %d\nEl valor de B es: %d\nEl resultado de A/B es: %d", A, B, R);
+	printf("\n\nEl valor en el campo %d del arreglo es: %d",R, nC[R]);	
 	
 	
 	return 0;
